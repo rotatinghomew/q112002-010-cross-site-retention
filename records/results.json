@@ -1,0 +1,119 @@
+[
+  {
+    "site": "东",
+    "wave": 1,
+    "token": "a",
+    "skill": "解释",
+    "day": 8,
+    "score": 2,
+    "independent": true
+  },
+  {
+    "site": "东",
+    "wave": 1,
+    "token": "a",
+    "skill": "比较",
+    "day": 8,
+    "score": 3,
+    "independent": true
+  },
+  {
+    "site": "东",
+    "wave": 1,
+    "token": "b",
+    "skill": "解释",
+    "day": 9,
+    "score": 3,
+    "independent": true
+  },
+  {
+    "site": "东",
+    "wave": 1,
+    "token": "b",
+    "skill": "比较",
+    "day": 9,
+    "score": 2,
+    "independent": true
+  },
+  {
+    "site": "西",
+    "wave": 1,
+    "token": "c",
+    "skill": "解释",
+    "day": 10,
+    "score": 2,
+    "independent": true
+  },
+  {
+    "site": "西",
+    "wave": 1,
+    "token": "d",
+    "skill": "解释",
+    "day": 11,
+    "score": 2,
+    "independent": true
+  },
+  {
+    "site": "西",
+    "wave": 2,
+    "token": "a",
+    "skill": "解释",
+    "day": 17,
+    "score": 2,
+    "independent": true
+  },
+  {
+    "site": "西",
+    "wave": 2,
+    "token": "a",
+    "skill": "比较",
+    "day": 17,
+    "score": 2,
+    "independent": true
+  },
+  {
+    "site": "西",
+    "wave": 2,
+    "token": "b",
+    "skill": "解释",
+    "day": 18,
+    "score": 4,
+    "independent": true
+  },
+  {
+    "site": "西",
+    "wave": 2,
+    "token": "b",
+    "skill": "比较",
+    "day": 18,
+    "score": 4,
+    "independent": true
+  },
+  {
+    "site": "东",
+    "wave": 2,
+    "token": "c",
+    "skill": "解释",
+    "day": 17,
+    "score": 1,
+    "independent": true
+  },
+  {
+    "site": "西",
+    "wave": 2,
+    "token": "e",
+    "skill": "解释",
+    "day": 17,
+    "score": 4,
+    "independent": false
+  },
+  {
+    "site": "南",
+    "wave": 1,
+    "token": "f",
+    "skill": "解释",
+    "day": 22,
+    "score": 4,
+    "independent": true
+  }
+]

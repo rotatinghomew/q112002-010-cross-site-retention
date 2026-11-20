@@ -1,0 +1,38 @@
+[
+  {
+    "package": "x1",
+    "edges": [
+      "l5",
+      "l6",
+      "l7",
+      "l8"
+    ],
+    "minutes": 12,
+    "ready": 20
+  },
+  {
+    "package": "x2",
+    "edges": [
+      "l9",
+      "l10"
+    ],
+    "minutes": 7,
+    "ready": 20
+  },
+  {
+    "package": "x3",
+    "edges": [
+      "l5"
+    ],
+    "minutes": 8,
+    "ready": 20
+  },
+  {
+    "package": "x4",
+    "edges": [
+      "l11"
+    ],
+    "minutes": 5,
+    "ready": 23
+  }
+]

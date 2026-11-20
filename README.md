@@ -1,23 +1,21 @@
-# 无辅助迁移复测考务资料
+# 跨考点复测关联资料
 
-练习完成日为第零日。两个观察窗为第 7–10 日与第 14–18 日，首尾都计；更早和更晚的记录只供追溯，不替代可比观察。`certificates` 是考务已确认的卷、目标、观察窗与可比组；不需要重新估计量尺。同可比组的 `score` 是统一的 0–4 等级，2 以下是对应目标的复检条件。
-`exposures` 的 `kind` 为空不使用；讲解是上课发生的事件，个人接卷也是曝光。`day` 是发生日，`received` 是登记到达日。先前在独立任务或复测收到试卷不影响该次观察，但之后不能再用同题族。无辅助标记以监考回执为准。
-`agenda` 是校务给出的复测场次，`max_sittings` 是场次总人数，`stock` 是同一场次该卷的最大份数。`phase` 表示第一次和第二次排表而非观察窗。录入已确认预约，以及教学组过去锁定批次的资料截点，支持复核当时可知事实。
+观察窗自结课日起算，第 7–10 日是第一轮，第 14–18 日是第二轮，首尾均计。同一技能的分值是统一的 0–4 等级；第二轮不少于第一轮且首轮至少为 2，记为保持。`eligible` 是这一技能的结课观察资格。改进线是成熟有资格学员中至少 70% 保持；配对缺失和无可用作答需另列覆盖，不当作零。区间应对仍有可能的批内关联取界；在图内可以保留未能配对的结果，没有数据可推断结果时不得把分值填成零。
+`token` 是考点某一次作答的随机号，按考点、轮次和 token 识别；一张卷可评多个技能。同一个人的同轮同技能若有两份同等有效的作答，先保留争议，不能用分高者代替。候选关系只说明可能，`excluded` 为排除，`confirmed` 是考务确认，`withdrawn` 撤回上一次确认、恢复候选。每一行更新其 `edge` 在当时的状态，日按资料获知时间记。
+真实联系信息不在资料中；`contact` 是当地考务交接用的合成号码，`routes` 指明这个号码已经可用于联系哪个名册人。`invitations` 是早期操作的回执，`confirmed` 由学员决定。可核实证据包由考务列出会提供哪些候选关系的裁定及所需分钟，不保证其裁定结果；限时清单不是学生联系人清单。
 
 ## 资料格式
 
 资料是匿名合成登记，不包含真实学生、真实成绩或外部访问地址。UTF-8 JSON，每张表是对象数组；`null` 表示该字段无已知值。`records/catalog.json` 记录每张表的字段。
 
-- `practice`：学生在对应目标完成练习的日期。 字段：`student`、`room`、`goal`、`ended`。
-- `forms`：试卷编号及题族。 字段：`form`、`family`。
-- `certificates`：window 为 short 或 long；scale 同名可比。 字段：`form`、`goal`、`window`、`scale`。
-- `observations`：无辅助任务或之前的复测记录。 字段：`student`、`form`、`goal`、`day`、`score`、`independent`。
-- `exposures`：按班讲题或学生个人领卷，另一范围填空。 字段：`room`、`student`、`family`、`day`、`received`、`kind`。
-- `agenda`：监考安排，两次排期可联动试算。 字段：`session`、`day`、`phase`、`proctor`、`max_sittings`。
-- `stock`：场次可用卷份数。 字段：`session`、`form`、`copies`。
-- `availability`：学生确认可到安排。 字段：`student`、`session`。
-- `appointments`：已确认与尚待确认的邀请。 字段：`student`、`session`、`form`、`state`、`agreed`。
-- `locks`：历史批次引用的业务日截点。 字段：`key`、`cutoff`、`room`。
+- `cohorts`：结课名册，含可分析技能。 字段：`student`、`cohort`、`ended`、`eligible`。
+- `results`：单个考点编号可能有多科得分，不能据成绩确定身份。 字段：`site`、`wave`、`token`、`skill`、`day`、`score`、`independent`。
+- `links`：候选、排除、确认和撤回的陆续登记。 字段：`edge`、`student`、`site`、`wave`、`token`、`state`、`day`。
+- `routes`：当地考务核实的联系索引，结束日不含。 字段：`student`、`contact`、`from_day`、`until_day`。
+- `review_packages`：一次可调阅的一组考务凭证。 字段：`package`、`edges`、`minutes`、`ready`。
+- `review_windows`：每次可安排的核实时间。 字段：`day`、`minutes`。
+- `invitations`：考务先前发出的复测安排与回执。 字段：`invitation`、`student`、`skill`、`basis`、`contact`、`issued`、`status`。
+- `locks`：过往课堂会引用的资料截止点。 字段：`issue`、`day`、`cohort`。
 
 ## 本地查看
 

@@ -1,0 +1,20 @@
+[
+  {
+    "invitation": "r1",
+    "student": "s3",
+    "skill": "解释",
+    "basis": "l9",
+    "contact": "c001",
+    "issued": 24,
+    "status": "confirmed"
+  },
+  {
+    "invitation": "r2",
+    "student": "s1",
+    "skill": "比较",
+    "basis": "l5",
+    "contact": "a001",
+    "issued": 24,
+    "status": "offered"
+  }
+]

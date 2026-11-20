@@ -1,0 +1,128 @@
+[
+  {
+    "edge": "l1",
+    "student": "s1",
+    "site": "东",
+    "wave": 1,
+    "token": "a",
+    "state": "confirmed",
+    "day": 9
+  },
+  {
+    "edge": "l2",
+    "student": "s2",
+    "site": "东",
+    "wave": 1,
+    "token": "b",
+    "state": "confirmed",
+    "day": 10
+  },
+  {
+    "edge": "l3",
+    "student": "s3",
+    "site": "西",
+    "wave": 1,
+    "token": "c",
+    "state": "confirmed",
+    "day": 11
+  },
+  {
+    "edge": "l4",
+    "student": "s4",
+    "site": "西",
+    "wave": 1,
+    "token": "d",
+    "state": "confirmed",
+    "day": 12
+  },
+  {
+    "edge": "l5",
+    "student": "s1",
+    "site": "西",
+    "wave": 2,
+    "token": "a",
+    "state": "possible",
+    "day": 18
+  },
+  {
+    "edge": "l6",
+    "student": "s2",
+    "site": "西",
+    "wave": 2,
+    "token": "a",
+    "state": "possible",
+    "day": 18
+  },
+  {
+    "edge": "l7",
+    "student": "s1",
+    "site": "西",
+    "wave": 2,
+    "token": "b",
+    "state": "possible",
+    "day": 19
+  },
+  {
+    "edge": "l8",
+    "student": "s2",
+    "site": "西",
+    "wave": 2,
+    "token": "b",
+    "state": "possible",
+    "day": 19
+  },
+  {
+    "edge": "l9",
+    "student": "s3",
+    "site": "东",
+    "wave": 2,
+    "token": "c",
+    "state": "possible",
+    "day": 19
+  },
+  {
+    "edge": "l10",
+    "student": "s4",
+    "site": "东",
+    "wave": 2,
+    "token": "c",
+    "state": "possible",
+    "day": 19
+  },
+  {
+    "edge": "l5",
+    "student": "s1",
+    "site": "西",
+    "wave": 2,
+    "token": "a",
+    "state": "confirmed",
+    "day": 22
+  },
+  {
+    "edge": "l9",
+    "student": "s3",
+    "site": "东",
+    "wave": 2,
+    "token": "c",
+    "state": "confirmed",
+    "day": 23
+  },
+  {
+    "edge": "l9",
+    "student": "s3",
+    "site": "东",
+    "wave": 2,
+    "token": "c",
+    "state": "withdrawn",
+    "day": 26
+  },
+  {
+    "edge": "l11",
+    "student": "s5",
+    "site": "南",
+    "wave": 1,
+    "token": "f",
+    "state": "possible",
+    "day": 23
+  }
+]

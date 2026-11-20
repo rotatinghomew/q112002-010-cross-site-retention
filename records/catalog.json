@@ -1,62 +1,56 @@
 {
-  "practice": [
+  "cohorts": [
     "student",
-    "room",
-    "goal",
-    "ended"
+    "cohort",
+    "ended",
+    "eligible"
   ],
-  "forms": [
-    "form",
-    "family"
-  ],
-  "certificates": [
-    "form",
-    "goal",
-    "window",
-    "scale"
-  ],
-  "observations": [
-    "student",
-    "form",
-    "goal",
+  "results": [
+    "site",
+    "wave",
+    "token",
+    "skill",
     "day",
     "score",
     "independent"
   ],
-  "exposures": [
-    "room",
+  "links": [
+    "edge",
     "student",
-    "family",
-    "day",
-    "received",
-    "kind"
-  ],
-  "agenda": [
-    "session",
-    "day",
-    "phase",
-    "proctor",
-    "max_sittings"
-  ],
-  "stock": [
-    "session",
-    "form",
-    "copies"
-  ],
-  "availability": [
-    "student",
-    "session"
-  ],
-  "appointments": [
-    "student",
-    "session",
-    "form",
+    "site",
+    "wave",
+    "token",
     "state",
-    "agreed"
+    "day"
+  ],
+  "routes": [
+    "student",
+    "contact",
+    "from_day",
+    "until_day"
+  ],
+  "review_packages": [
+    "package",
+    "edges",
+    "minutes",
+    "ready"
+  ],
+  "review_windows": [
+    "day",
+    "minutes"
+  ],
+  "invitations": [
+    "invitation",
+    "student",
+    "skill",
+    "basis",
+    "contact",
+    "issued",
+    "status"
   ],
   "locks": [
-    "key",
-    "cutoff",
-    "room"
+    "issue",
+    "day",
+    "cohort"
   ]
 }

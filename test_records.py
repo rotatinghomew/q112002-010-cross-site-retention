@@ -12,13 +12,13 @@ class RecordsTest(unittest.TestCase):
         self.assertTrue(all(row[left_key] in candidates for row in self.tables[left]))
 
     def test_documents_reference_source_records(self):
-        self.references('certificates','form','forms','form')
-        self.references('appointments','session','agenda','session')
-        self.references('stock','form','forms','form')
-        self.references('availability','session','agenda','session')
-        forms = {row['form']: row['family'] for row in self.tables['forms']}
-        self.assertEqual(forms['f1'], forms['f2'])
-        exposure = next(row for row in self.tables['exposures'] if row['kind']=='讲解')
-        lock = next(row for row in self.tables['locks'] if row['room']==exposure['room'])
-        self.assertLess(exposure['day'], lock['cutoff'])
-        self.assertLess(lock['cutoff'], exposure['received'])
+        self.references('links','student','cohorts','student')
+        self.references('invitations','basis','links','edge')
+        self.references('invitations','contact','routes','contact')
+        keys = {(row['site'],row['wave'],row['token']) for row in self.tables['results']}
+        self.assertTrue(all((row['site'],row['wave'],row['token']) in keys for row in self.tables['links']))
+        ambiguous = [row for row in self.tables['links'] if row['site']=='西' and row['wave']==2 and row['token']=='a']
+        self.assertEqual({'s1','s2'}, {row['student'] for row in ambiguous})
+        withdrawal = next(row for row in self.tables['links'] if row['state']=='withdrawn')
+        appointment = next(row for row in self.tables['invitations'] if row['basis']==withdrawal['edge'])
+        self.assertLess(appointment['issued'],withdrawal['day'])

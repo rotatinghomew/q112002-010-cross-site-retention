@@ -1,12 +1,12 @@
 [
   {
-    "key": "k1",
-    "cutoff": 11,
-    "room": "A"
+    "issue": "m1",
+    "day": 20,
+    "cohort": "甲"
   },
   {
-    "key": "k2",
-    "cutoff": 11,
-    "room": "B"
+    "issue": "m2",
+    "day": 24,
+    "cohort": "甲"
   }
 ]

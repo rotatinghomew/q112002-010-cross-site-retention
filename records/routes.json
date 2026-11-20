@@ -1,0 +1,26 @@
+[
+  {
+    "student": "s1",
+    "contact": "a001",
+    "from_day": 20,
+    "until_day": null
+  },
+  {
+    "student": "s2",
+    "contact": "b001",
+    "from_day": 23,
+    "until_day": null
+  },
+  {
+    "student": "s3",
+    "contact": "c001",
+    "from_day": 23,
+    "until_day": 26
+  },
+  {
+    "student": "s5",
+    "contact": "e001",
+    "from_day": 25,
+    "until_day": null
+  }
+]

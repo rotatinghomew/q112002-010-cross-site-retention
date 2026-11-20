@@ -1,0 +1,52 @@
+[
+  {
+    "student": "s1",
+    "cohort": "甲",
+    "ended": 1,
+    "eligible": [
+      "解释",
+      "比较"
+    ]
+  },
+  {
+    "student": "s2",
+    "cohort": "甲",
+    "ended": 1,
+    "eligible": [
+      "解释",
+      "比较"
+    ]
+  },
+  {
+    "student": "s3",
+    "cohort": "甲",
+    "ended": 1,
+    "eligible": [
+      "解释"
+    ]
+  },
+  {
+    "student": "s4",
+    "cohort": "甲",
+    "ended": 1,
+    "eligible": [
+      "解释"
+    ]
+  },
+  {
+    "student": "s5",
+    "cohort": "乙",
+    "ended": 14,
+    "eligible": [
+      "解释"
+    ]
+  },
+  {
+    "student": "s6",
+    "cohort": "乙",
+    "ended": 15,
+    "eligible": [
+      "比较"
+    ]
+  }
+]
