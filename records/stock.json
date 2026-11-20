@@ -1,0 +1,57 @@
+[
+  {
+    "session": "h1",
+    "form": "f3",
+    "copies": 1
+  },
+  {
+    "session": "h1",
+    "form": "f6",
+    "copies": 1
+  },
+  {
+    "session": "h2",
+    "form": "f3",
+    "copies": 1
+  },
+  {
+    "session": "h2",
+    "form": "f1",
+    "copies": 1
+  },
+  {
+    "session": "h3",
+    "form": "f4",
+    "copies": 1
+  },
+  {
+    "session": "h3",
+    "form": "f2",
+    "copies": 2
+  },
+  {
+    "session": "h4",
+    "form": "f5",
+    "copies": 1
+  },
+  {
+    "session": "h4",
+    "form": "f6",
+    "copies": 1
+  },
+  {
+    "session": "h5",
+    "form": "f5",
+    "copies": 1
+  },
+  {
+    "session": "h5",
+    "form": "f3",
+    "copies": 1
+  },
+  {
+    "session": "h6",
+    "form": "f5",
+    "copies": 1
+  }
+]

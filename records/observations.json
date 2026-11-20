@@ -1,0 +1,58 @@
+[
+  {
+    "student": "s1",
+    "form": "f1",
+    "goal": "解释",
+    "day": 9,
+    "score": 3,
+    "independent": true
+  },
+  {
+    "student": "s2",
+    "form": "f1",
+    "goal": "解释",
+    "day": 12,
+    "score": 1,
+    "independent": true
+  },
+  {
+    "student": "s3",
+    "form": "f1",
+    "goal": "解释",
+    "day": 8,
+    "score": 2,
+    "independent": true
+  },
+  {
+    "student": "s3",
+    "form": "f3",
+    "goal": "转述",
+    "day": 9,
+    "score": 2,
+    "independent": true
+  },
+  {
+    "student": "s4",
+    "form": "f1",
+    "goal": "解释",
+    "day": 9,
+    "score": 1,
+    "independent": true
+  },
+  {
+    "student": "s1",
+    "form": "f3",
+    "goal": "转述",
+    "day": 12,
+    "score": 4,
+    "independent": true
+  },
+  {
+    "student": "s5",
+    "form": "f3",
+    "goal": "转述",
+    "day": 15,
+    "score": 4,
+    "independent": false
+  }
+]

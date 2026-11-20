@@ -1,0 +1,44 @@
+[
+  {
+    "session": "h1",
+    "day": 11,
+    "phase": 1,
+    "proctor": "何",
+    "max_sittings": 2
+  },
+  {
+    "session": "h2",
+    "day": 13,
+    "phase": 1,
+    "proctor": "陈",
+    "max_sittings": 2
+  },
+  {
+    "session": "h3",
+    "day": 16,
+    "phase": 2,
+    "proctor": "何",
+    "max_sittings": 2
+  },
+  {
+    "session": "h4",
+    "day": 18,
+    "phase": 2,
+    "proctor": "何",
+    "max_sittings": 2
+  },
+  {
+    "session": "h5",
+    "day": 20,
+    "phase": 2,
+    "proctor": "陈",
+    "max_sittings": 2
+  },
+  {
+    "session": "h6",
+    "day": 25,
+    "phase": 2,
+    "proctor": "陈",
+    "max_sittings": 2
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "practice": [
+    "student",
+    "room",
+    "goal",
+    "ended"
+  ],
+  "forms": [
+    "form",
+    "family"
+  ],
+  "certificates": [
+    "form",
+    "goal",
+    "window",
+    "scale"
+  ],
+  "observations": [
+    "student",
+    "form",
+    "goal",
+    "day",
+    "score",
+    "independent"
+  ],
+  "exposures": [
+    "room",
+    "student",
+    "family",
+    "day",
+    "received",
+    "kind"
+  ],
+  "agenda": [
+    "session",
+    "day",
+    "phase",
+    "proctor",
+    "max_sittings"
+  ],
+  "stock": [
+    "session",
+    "form",
+    "copies"
+  ],
+  "availability": [
+    "student",
+    "session"
+  ],
+  "appointments": [
+    "student",
+    "session",
+    "form",
+    "state",
+    "agreed"
+  ],
+  "locks": [
+    "key",
+    "cutoff",
+    "room"
+  ]
+}

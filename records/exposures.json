@@ -1,0 +1,34 @@
+[
+  {
+    "room": null,
+    "student": "s4",
+    "family": "甲",
+    "day": 9,
+    "received": 9,
+    "kind": "接卷"
+  },
+  {
+    "room": "A",
+    "student": null,
+    "family": "甲",
+    "day": 6,
+    "received": 13,
+    "kind": "讲解"
+  },
+  {
+    "room": null,
+    "student": "s3",
+    "family": "乙",
+    "day": 9,
+    "received": 9,
+    "kind": "接卷"
+  },
+  {
+    "room": null,
+    "student": "s7",
+    "family": "丙",
+    "day": 10,
+    "received": 10,
+    "kind": "别班旁听"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "student": "s1",
+    "session": "h1"
+  },
+  {
+    "student": "s1",
+    "session": "h3"
+  },
+  {
+    "student": "s2",
+    "session": "h2"
+  },
+  {
+    "student": "s2",
+    "session": "h4"
+  },
+  {
+    "student": "s2",
+    "session": "h5"
+  },
+  {
+    "student": "s3",
+    "session": "h3"
+  },
+  {
+    "student": "s4",
+    "session": "h3"
+  },
+  {
+    "student": "s4",
+    "session": "h4"
+  },
+  {
+    "student": "s5",
+    "session": "h4"
+  },
+  {
+    "student": "s5",
+    "session": "h5"
+  },
+  {
+    "student": "s6",
+    "session": "h4"
+  },
+  {
+    "student": "s6",
+    "session": "h6"
+  },
+  {
+    "student": "s7",
+    "session": "h5"
+  },
+  {
+    "student": "s7",
+    "session": "h6"
+  }
+]

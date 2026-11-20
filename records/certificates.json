@@ -1,0 +1,50 @@
+[
+  {
+    "form": "f1",
+    "goal": "解释",
+    "window": "short",
+    "scale": "e1"
+  },
+  {
+    "form": "f2",
+    "goal": "解释",
+    "window": "long",
+    "scale": "e2"
+  },
+  {
+    "form": "f3",
+    "goal": "解释",
+    "window": "short",
+    "scale": "e1"
+  },
+  {
+    "form": "f3",
+    "goal": "转述",
+    "window": "short",
+    "scale": "t1"
+  },
+  {
+    "form": "f4",
+    "goal": "转述",
+    "window": "long",
+    "scale": "t2"
+  },
+  {
+    "form": "f5",
+    "goal": "解释",
+    "window": "long",
+    "scale": "e2"
+  },
+  {
+    "form": "f6",
+    "goal": "解释",
+    "window": "short",
+    "scale": "e1"
+  },
+  {
+    "form": "f6",
+    "goal": "转述",
+    "window": "short",
+    "scale": "t1"
+  }
+]

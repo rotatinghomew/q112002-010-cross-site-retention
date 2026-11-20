@@ -1,0 +1,62 @@
+[
+  {
+    "student": "s1",
+    "room": "A",
+    "goal": "解释",
+    "ended": 1
+  },
+  {
+    "student": "s1",
+    "room": "A",
+    "goal": "转述",
+    "ended": 1
+  },
+  {
+    "student": "s2",
+    "room": "A",
+    "goal": "解释",
+    "ended": 3
+  },
+  {
+    "student": "s2",
+    "room": "A",
+    "goal": "转述",
+    "ended": 3
+  },
+  {
+    "student": "s3",
+    "room": "B",
+    "goal": "解释",
+    "ended": 1
+  },
+  {
+    "student": "s3",
+    "room": "B",
+    "goal": "转述",
+    "ended": 1
+  },
+  {
+    "student": "s4",
+    "room": "B",
+    "goal": "解释",
+    "ended": 1
+  },
+  {
+    "student": "s5",
+    "room": "B",
+    "goal": "转述",
+    "ended": 8
+  },
+  {
+    "student": "s6",
+    "room": "C",
+    "goal": "解释",
+    "ended": 9
+  },
+  {
+    "student": "s7",
+    "room": "C",
+    "goal": "解释",
+    "ended": 9
+  }
+]

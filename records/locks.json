@@ -1,0 +1,12 @@
+[
+  {
+    "key": "k1",
+    "cutoff": 11,
+    "room": "A"
+  },
+  {
+    "key": "k2",
+    "cutoff": 11,
+    "room": "B"
+  }
+]

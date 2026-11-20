@@ -1,0 +1,23 @@
+[
+  {
+    "student": "s2",
+    "session": "h2",
+    "form": "f1",
+    "state": "offered",
+    "agreed": 11
+  },
+  {
+    "student": "s1",
+    "session": "h3",
+    "form": "f2",
+    "state": "confirmed",
+    "agreed": 10
+  },
+  {
+    "student": "s3",
+    "session": "h3",
+    "form": "f4",
+    "state": "confirmed",
+    "agreed": 10
+  }
+]
